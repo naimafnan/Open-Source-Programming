@@ -1,0 +1,327 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+*/
+
+article,aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+hr,
+menu,
+nav,
+section {
+  display: block;
+}
+a,
+hr {
+  padding: 0;
+}
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+ins,
+mark {
+  background-color: #ff9;
+  color: #000;
+}
+body {
+  line-height: 1;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+a {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+ins {
+  text-decoration: none;
+}
+mark {
+  font-style: italic;
+  font-weight: 700;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+
+body {
+  color: #84848a;
+  font-family: "Merriweather", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 80px;
+}
+
+h1,
+h2,
+h3,
+a {
+  color: #595865;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin: 1.5rem 0 0.5rem;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 1.5rem 0 0.5rem;
+  text-transform: uppercase;
+}
+
+header {
+  color: #595865;
+}
+
+header,
+section {
+  margin: 2.2em 0;
+}
+
+section {
+  border-bottom: 5px solid #f4f5f7;
+  padding: 2.2em 0;
+}
+
+.self-title {
+  text-transform: uppercase;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact > div {
+  margin: 15px 30px;
+  margin-left: 0;
+}
+
+.sec--skills {
+  display: flex;
+}
+
+.sec--skills_col {
+  width: 25%;
+}
+
+/* Experience */
+.experience {
+  display: flex;
+}
+
+.sec--experience_col_title {
+  width: 25%;
+}
+
+.sec--experience_col {
+  flex-grow: 1;
+}
+
+.experience__container {
+  margin: 0 0 2em 2em;
+}
+
+.experience__meta {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  margin-bottom: 2em;
+}
+
+.experience__container h2 {
+  margin: 1.5em 0;
+}
+
+.experience__title {
+  color: #595865;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.experience__timeframe {
+  font-size: 0.9em;
+}
+
+.experience__region {
+  font-size: 0.9em;
+  color: #00802b;
+}
+
+/* mobile optimize */
+
+@media screen and (max-width: 420px) {
+  body {
+    margin: 40px;
+    text-align: center;
+  }
+
+  .contact {
+    display: block;
+    text-align: left;
+  }
+
+  section {
+    padding: 1.2em 0 1.2em;
+    margin: 1.2em 0;
+  }
+  
+  .sec--skills {
+    display: block;
+  }
+
+  .sec--skills_col {
+    width: auto;
+    text-align: left;
+    padding-left: 30px;
+    margin: 30px 0;
+  }
+
+  .sec--skills__title {
+    padding: 1.2em 1.2em 0;
+    margin: auto;
+    border: none;
+  }
+
+  .sec--skills_col h3 {
+    margin-left: -15px;
+    margin-bottom: 20px;
+  }
+
+  .experience {
+    display: block;
+    text-align: left;
+  }
+
+  .sec--experience_col_title {
+    margin: 0 0 20px 0;
+  }
+
+  .experience__description {
+  }
+}
