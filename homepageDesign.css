@@ -1,5 +1,5 @@
 * {
-    /* margin: auto; */
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -107,13 +107,14 @@ nav ul li{
 .padding {
     padding-bottom: 2rem;
   }
-.social a {
+/* .social a {
     font-size: 5rem;
     padding: 5rem;
-  }
+  } */
   
   .fa-facebook {
     color: #3b5998;
+    font-size: 100px;
   }
   
   .fa-twitter {
@@ -133,13 +134,19 @@ nav ul li{
     color: #d5d5d5;
   }
   
-/* .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  } */
+  .fa-twitte, .fa-facebook, .fa-linkedin{
+    font-size: 4em;
+    margin:1rem ;
+    width: 100px;
+  }
+  
+.fa {
+    padding: 80px;
+    /* font-size: 30px; */
+    width: 100px;
+    /* text-align: center;
+    text-decoration: none; */
+  }
   
   /* Add a hover effect if you want */
   /* .fa:hover {
