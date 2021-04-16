@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior:smooth;
 }
 body {
     font-family:'Shippori Mincho B1', serif;
@@ -28,6 +29,7 @@ a{
 
 p{
     color:black;
+    font-size: large;
 }
 
 .container {
@@ -108,6 +110,10 @@ p{
       text-decoration:underline;
       text-transform: uppercase;
       
+  }
+  .container2 {
+    background-color:beige;
+    max-width:inherit;
   }
 
 /* .col-2 p{

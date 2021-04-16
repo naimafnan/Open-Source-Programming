@@ -2,6 +2,7 @@
     margin: auto;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,7 +29,7 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
     text-decoration: underline;
-    -o-transition-delay: 100ms;
+    
 }
 
 .container {
